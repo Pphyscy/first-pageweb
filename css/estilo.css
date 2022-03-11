@@ -1,0 +1,100 @@
+*{
+    font-family: 'Sansita Swashed', cursive; 
+    
+}
+
+nav{
+    background-color:darkblue;
+}
+.nav_responsive_ul{
+    display: none;
+}
+
+.nav_li{
+   
+    display: inline-block;
+    padding: 12px;
+  
+}
+.nav_li:hover > a{
+ color:#bbb; 
+}
+
+.nav_li a{
+    color: #fff;
+    text-decoration: none;
+  
+}
+
+
+
+
+
+
+@media (max-width:490px) {   /*desaparece a los 490 px*/
+    .nav_ul{
+        display: none;
+    }
+    .nav_responsive_ul{
+        display: block;
+    }
+}
+
+
+
+/* a los iconos
+.nav_li i{
+    width: 30px;   ancho
+    box-sizing: border-box;tamaño de caja de icono
+    text-align: right; se alineen a la derecha
+    margin-right: 5px;distancia derecha
+*/
+/*
+body{
+    padding-top: 200px;
+    
+}
+.caja-fixed{
+    background: red;
+    position: fixed; 
+    margin: -200px;
+
+}
+
+
+*/
+/*
+h2{
+
+    background-color: red;
+    display: inline; /* se comporta como linea y no bloque
+    padding: 10px 20px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 2em;
+    box-shadow: 1px 1px 10px 0 #000;
+    text-shadow: 2px 2px 7px #000;
+    outline: ;
+}
+*/
+
+
+
+
+
+
+
+
+
+/*
+
+
+.parrafo{
+    font-size: 15px;
+}
+
+.parrafo__p{
+    font-size: 2em;
+    
+    
+}*/
